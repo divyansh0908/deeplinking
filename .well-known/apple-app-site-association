@@ -9,6 +9,14 @@
             "/": "/*",
             "comment": "Matches any URL whose path starts with /buy/"
           },
+          {
+            "/": "/bids/*",
+            "comment": "Matches any URL whose path starts with /buy/"
+          },
+        {
+            "/": "/deals/*",
+            "comment": "Matches any URL whose path starts with /buy/"
+          },
         ]
       }
     ]
