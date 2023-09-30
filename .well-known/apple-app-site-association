@@ -6,11 +6,11 @@
         "appIDs": ["2D57F5PJ3P.com.northladder.business.dealer"],
         "components": [
           {
-            "/": "/bids/*",
+            "/": "/mobile/bids/*",
             "comment": "Matches any URL whose path starts with /buy/"
           },
         {
-            "/": "/deals/*",
+            "/": "/mobile/deals/*",
             "comment": "Matches any URL whose path starts with /buy/"
           }
         ]
