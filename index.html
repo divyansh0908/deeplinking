@@ -4,13 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .download-row{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .download-col{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 10px;
+        }
+    </style>
 </head>
 <body>
-    Hi there!
-    <h1 class="platform"></h1>
+    <div class="download-row">
+        <a class="download-col" target="_blank" href="https://apps.apple.com/in/app/northladder-dealer/id1641886744">
+            <img src="./assets/Download_App_Store.svg" alt="logo" width="160px"/>
+        </a>
+        <a class="download-col" target="_blank" href="https://play.google.com/store/apps/details?id=com.northladder.business.dealer">
+            <img width="200px" src="./assets/google-play-badge.png" alt="logo"/>
+        </a>
+    </div>
     <script>
-        var platform = navigator.platform;
-        document.querySelector('.platform').innerHTML = platform;
+        function redirectToAppStore(){
+            window.location.href = "https://apps.apple.com/in/app/northladder-dealer/id1641886744";
+        }
+        function redirectToPlayStore(){
+            window.location.href = "https://play.google.com/store/apps/details?id=com.northladder.business.dealer";
+        }
     </script>
 </body>
 </html>
