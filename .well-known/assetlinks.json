@@ -1,9 +1,15 @@
-[{
-    "relation": ["delegate_permission/common.handle_all_urls"],
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.northladder.business.dealer",
-      "sha256_cert_fingerprints":
-      ["C1:06:EC:75:73:DF:0C:30:FE:B5:E1:D7:C7:8F:54:04:F2:FF:82:D4:AC:6D:87:18:49:03:B5:2D:48:66:A6:D7"]
+      "sha256_cert_fingerprints": [
+        "C1:06:EC:75:73:DF:0C:30:FE:B5:E1:D7:C7:8F:54:04:F2:FF:82:D4:AC:6D:87:18:49:03:B5:2D:48:66:A6:D7",
+        "EF:95:B5:9D:B0:55:EB:CF:01:0E:B7:82:41:ED:0F:A6:07:C8:AB:3D:D9:8C:46:3E:A6:86:11:4C:1B:C7:B9:F2"
+      ]
     }
-    }]
+  }
+]
