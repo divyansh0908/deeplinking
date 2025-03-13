@@ -5,10 +5,9 @@
     ],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.northladder.business.dealer",
+      "package_name": "com.abstrctdatyp.RDSExpoApp",
       "sha256_cert_fingerprints": [
-        "C1:06:EC:75:73:DF:0C:30:FE:B5:E1:D7:C7:8F:54:04:F2:FF:82:D4:AC:6D:87:18:49:03:B5:2D:48:66:A6:D7",
-        "EF:95:B5:9D:B0:55:EB:CF:01:0E:B7:82:41:ED:0F:A6:07:C8:AB:3D:D9:8C:46:3E:A6:86:11:4C:1B:C7:B9:F2"
+        "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C"
       ]
     }
   }
